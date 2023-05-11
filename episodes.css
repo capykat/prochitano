@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #3A110B;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,p{
+    margin: 0;
+}
+
+.episodes{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 100%;
+    height: 100vh;
+
+    background: url("img/episodes.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.text2{
+    width: 100%;
+    max-width: 500px;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.episode_title{
+    font-size: 48pt;
+    margin-bottom: 1%;
+}
+
+.episode_sub{
+    margin-left: 2px;
+    font-size: 20pt;
+}
+
+.cell{
+    width: 100%;
+    margin-left: 10%;
+    max-width: 500px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.botton_ep1{
+    width: 100%;
+    max-width: 117px;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.botton_ep2{
+    width: 100%;
+    max-width: 150px;
+    margin-right: 10%;
+    text-align: center;
+}
+.botton1{
+    transition: all 0.5s ease 0s;
+    background-color: #FFA600;
+    cursor: pointer;
+
+    border: 4px solid #ff681f;
+    border-radius: 11px;
+}
+
+.botton1 p{
+    font-size: 20pt;
+    text-align: center;
+    color: #FFF;
+    user-select: none;
+}
+
+.botton1:hover{
+    background-color: #fff;
+}
+
+.botton1 p:hover{
+    color: #3A110B;
+}

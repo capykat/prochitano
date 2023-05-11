@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #3A110B;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    background: url("img/contacts.png") top no-repeat;
+    background-size: cover;
+}
+
+.text4{
+    width: 100%;
+    margin-top: 9%;
+}
+
+.contacts_title{
+    font-size: 48pt;
+    text-align: center;
+}
+
+.contacts_text{
+    width: 41%;
+    margin-bottom: 9%;
+    margin-left: 29.5%;
+}
+
+.contacts_main{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts_sup{
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+
+
+    vertical-align: top;
+}
+
+.contacts_sub{
+    font-size: 20px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.contacts_sec{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts_social{
+    width: 10px;
+    margin-left: 29%;
+}
+.btn{
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.btn2{
+    height: 50px;
+    width: 50px;
+    user-select: none;
+    cursor: pointer;
+
+    transform: scale(0.5);
+    transition: all 0.5s ease 0s;
+}
+
+.btn2:hover{
+    transform: scale(0.65);
+}
