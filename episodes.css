@@ -22,7 +22,7 @@ h1,h2,p{
     width: 100%;
     height: 100vh;
 
-    background: url("img/episodes.png") center no-repeat;
+    background: url("img/episodes.png") bottom no-repeat;
     background-size: cover;
 }
 
@@ -31,7 +31,7 @@ h1,h2,p{
     width: 100%;
     max-width: 500px;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .episode_title{
     font-size: 48pt;

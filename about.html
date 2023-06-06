@@ -5,10 +5,16 @@
     <link rel="stylesheet" href="about_main.css">
     <link rel="stylesheet" href="contacts.css">
     <title>О нас</title>
+    <link rel="icon" type="image/png" href="img/icon_book.png"/>
 </head>
 <body>
     <section id="about" class="intro">
-        <div class="container">
+        <div class="container1">
+            <div class="botton_back">
+                <div class="botton1" onclick="location.href='index.html#main'">
+                    <p>Вернуться</p>
+                </div>
+            </div>
             <div class="text1">
                 <h1 class="intro_title">Кто мы</h1>
                 <p class="intro_sub">Каждый выпуск Коля и Даня затрагивают громкую литературную тему и подробно высказываются на этот счет.
@@ -16,13 +22,44 @@
             </div>
     </section>
 
-    <section id="team" class="intro">
-        <div class="container">
-            <div class="text1">
-                <h1 class="intro_title">Кто мыsss</h1>
-                <p class="intro_sub">Каждый выпуск Коля и Даня затрагивают громкую литературную тему и подробно высказываются на этот счет.
-                    Но этим мы не ограничиваемся, также мы делимся своими эмоциями от прочитанного, высказываем непопулярные мнения и просто мило беседуем.</p>
+    <section id="team" class="team">
+        <div class="container2">
+            <div class="text2">
+                <h1 class="team_title">Авторы проекта</h1>
+                <div class="members">
+                    <div class="pLine pLineJS">
+                        <div class="mem">
+                            <h2 class="title_mem">Ведущий</h2>
+                            <img src="img/kol.png">
+                            <h1 class="title_mem">Коля</h1>
+                        </div>
+                        <div class="mem">
+                            <h2 class="title_mem">Ведущий</h2>
+                            <img src="img/dan.png">
+                            <h1 class="title_mem">Даня</h1>
+                        </div>
+                        <div class="mem">
+                            <h2 class="title_mem">Продюсер</h2>
+                            <img src="img/kat.png">
+                            <h1 class="title_mem">Катя</h1>
+                        </div>
+                        <div class="mem">
+                            <h2 class="title_mem">Монтажёр</h2>
+                            <img src="img/ser.png">
+                            <h1 class="title_mem">Серёжа</h1>
+                        </div>
+                        <div class="mem">
+                            <h2 class="title_mem">Дизайнер</h2>
+                            <img src="img/ar.png">
+                            <h1 class="title_mem">Арина</h1>
+                        </div>
+                    </div>
+                </div>
+                <button class="bRight bRightJS"><img src="img/prev.png"></button>
+                <button class="bLeft bLeftJS"><img src="img/next.png"></button>
+                <script src="about.js"></script>
             </div>
+        </div>
     </section>
 
     <section id="contacts" class="contacts">
