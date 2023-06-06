@@ -112,7 +112,10 @@ h3{
     width: 100%;
     max-width: 682px;
     margin-top: 10%;
-    transform: translateX(75%);
+    position: absolute;
+    margin: auto;
+    left: 230px; right:0; bottom:0; top:230px;
+
 }
 .intro_title{
     font-size: 48pt;
